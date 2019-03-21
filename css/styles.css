@@ -1,7 +1,22 @@
 .panel-heading {
   margin: 5px;
 }
-/*.panel-title {
 
-  margin: 3px;
-}*/
+#sidebar {
+  position: fixed;
+  height: 100%;
+  width: 150px;
+  float: left;
+  background-color: #F5F5F5;
+}
+
+#sidebar img {
+  width: 150px;
+}
+.container {
+  margin-left: 150px;
+}
+
+#toplinks {
+  padding-top: 20px;
+}
